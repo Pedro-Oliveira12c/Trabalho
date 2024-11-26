@@ -7,6 +7,7 @@
 
 body {
     background-color: #dcdcdc;
+    height: 100vh;
     background-image: url('https://i.pinimg.com/originals/1e/7b/d9/1e7bd92aafe670d631d035880523f582.jpg');
     background-size: cover;
     background-position: center center;
@@ -79,7 +80,7 @@ h1{
 
 h4{
     font-size: 50px;
-    margin-top: 300px;
+    margin-top: 500px;
     margin-left: 100px;
     font-weight: bold;
     color: rgb(0, 0, 0);
@@ -194,16 +195,10 @@ gap: 100px 50px;
     margin-right:auto;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  
-}
 
 
-.container{
+
+.containerr{
     max-width: 1280px;
     margin: auto;
     z-index: 1;
@@ -290,6 +285,7 @@ html{
     height: 100vh;
     background-color: #dcdcdc;
 }
+
 
 
 
