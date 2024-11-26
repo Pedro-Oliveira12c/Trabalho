@@ -23,14 +23,14 @@ body{
 
 h1{
     color: #dcdcdc;
-    font-size: 80px;
-    margin-top: 95px;
+    font-size: 50px;
+    margin-top: 200px;
     margin-left: 100px;
     font-weight:bolder;
 }
 
 .barra {
-    width: 1475px;
+    width: 1446px;
     height: 10px;
     background-color: brown;
     margin-top: 10px;
