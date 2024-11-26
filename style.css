@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    height: 500vh;
+    background-color: #000;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+header.rolagem{
+    background-color: #3e4975;
+    padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i{
+    color: #fff;
+}
+
+header i{
+    font-size: 30px;
+    color: #fff;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-login button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 30px;
+    background-color:#a72009;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url(./assets/aiai.jpg);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1{
+    font-size: 3em;
+    color: #fff;
+}
+
+.banner h1 span{
+    color: #ec8d11;
+}
+
+h2{
+    color: #fff;
+}
